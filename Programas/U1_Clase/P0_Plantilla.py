@@ -1,6 +1,6 @@
 import sys
 from PyQt5 import uic, QtWidgets
-qtCreatorFile = "P_00_Plantilla.ui"  # Nombre del archivo aquí.
+qtCreatorFile = "P0_Plantilla.ui"  # Nombre del archivo aquí.
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
     def __init__(self):
@@ -8,6 +8,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         Ui_MainWindow.__init__(self)
         self.setupUi(self)
         # Área de los Signals
+
     # Área de los Slots
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
