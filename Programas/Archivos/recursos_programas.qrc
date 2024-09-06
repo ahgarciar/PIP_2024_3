@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="Logos">
+    <file>log_uat_nuevo.png</file>
+    <file>FIT_logo_vertical.png</file>
+  </qresource>
+  <qresource prefix="Personajes">
+    <file>ImagenGatoEuropeo.png</file>
+    <file>gato.jpeg</file>
+  </qresource>
+</RCC>
