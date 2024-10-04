@@ -36,8 +36,11 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
     def cambiaR(self):
         self.R = self.valorR.value()
         # background-color: rgb(97, 80, 255);
-        estilo = ("background-color: rgb(" + str(self.R) +
-                  "," + str(self.G) + "," + str(self.B) + ");")
+        estilo = ("background-color: rgb(" +
+                  str(self.R) + "," +
+                  str(self.G) + "," +
+                  str(self.B) + ");"
+                  )
         self.color.setStyleSheet(estilo)
         self.txt_R.setText(str(self.R))
 
